@@ -1,0 +1,21 @@
+#include <iostream>
+#include<string>
+using namespace std;
+
+int main() {
+int a,b;
+char op;
+cin>>a>>op>>b;
+switch (op){
+    case '+':cout<<"sum"<<a+b<<endl;
+    break;
+   case '-':cout<<"Diff"<<a-b<<endl;
+    break;
+    case '*':cout<<"product"<<a*b<<endl;
+    break;
+     case '/':cout<<"quotient"<<a/b<<endl;
+    break;
+    default:cout<<"invalid input";
+}
+    return 0;
+}
