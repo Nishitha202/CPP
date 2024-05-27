@@ -7,7 +7,7 @@ int main() {
    
    do{
        cout<<"shopping with money"<<money<<endl;
-       money=money-1;
+       money=money-1; //decrement 
    }while(money>0);
    
     return 0;
