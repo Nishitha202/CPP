@@ -20,9 +20,9 @@ cout<<"enter the value of n"<<endl;
 cin>>n;
 
 
-int ans= fact(n); //function call
+// int ans= fact(n); //function call
 
  
- cout<<"Factorial of "<<n<<" is "<<ans<<endl; 
+ cout<<"Factorial of "<<n<<" is "<<fact(n)<<endl;  //function call
     return 0;
 }

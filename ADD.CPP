@@ -1,5 +1,5 @@
-#include<iostream.h> //hi
-#include<conio.h>
+#include<iostream> //header file
+
 class add{
 public:
 int sum(int num1,int num2)
