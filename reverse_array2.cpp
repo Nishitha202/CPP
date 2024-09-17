@@ -19,8 +19,6 @@ void  Reverse(int  arr[],int n)
 
 }
 
-
-
 int main() {
   
   int n;
@@ -35,8 +33,6 @@ int main() {
   print(arr,n); //Function call 
   
   Reverse(arr,n);
-
-  
   
     return 0;
 }

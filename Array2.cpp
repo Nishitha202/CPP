@@ -6,6 +6,7 @@ int main() {
 
 
   int n;
+  
   cin>>n;
   //n is the size of the array
   int arr[n];
