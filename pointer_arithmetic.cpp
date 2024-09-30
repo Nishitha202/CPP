@@ -20,6 +20,7 @@ for(int i=0;i<10;i++){
     //Instead of arr[i] 
     // cout<<*(ptr+i) <<", " ;
     cout<<*(arr+i)<<", ";
+     
     //  cout<<*(arr-i)<<", ";
 }
 
@@ -30,5 +31,5 @@ cout<<ptr1<<endl;
 cout<<ptr2<<endl;
 
 cout<<ptr2-ptr1<<endl;
-    return 0;
+return 0;
 }
