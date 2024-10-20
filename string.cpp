@@ -5,7 +5,7 @@ using namespace std;
 int main() {
   char arr[100]="Hello";
   
-  strcpy(arr,"hi everyone");
+  strcpy(arr,"hello everyone");
  cout<<arr<<endl;
 
 cout<<"Length of arr :"<<strlen(arr)<<endl;
