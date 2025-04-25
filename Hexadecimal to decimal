@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int hexaTodecimal(string str){
+  int ans=0,pow=1;
+  
+  int n=str.size();
+  
+  for(int i=n-1;i>=0;i--){
+      if(str[i]>='0'&& str[i]<='9'){
+          ans=ans+(str[i]-'0')*pow;
+      }else if(str[i]>='A' && str[i]<='F'){
+          ans=ans+((str[i]-'A')+10)*pow;
+      }
+      
+      pow=pow*16;
+  }
+    return ans;
+}
+int main() {
+  
+string str;
+cin>>str;
+
+cout<< hexaTodecimal(str);
+
+
+    return 0;
+}

@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+int main() {
+   
+int arr[]={0,-9,1, 2,-4,5};
+int n=sizeof(arr)/sizeof(int);
+
+int N=1e6+2;
+int check[N];
+for(int i=0;i<N;i++){
+    check[i]=false;
+}
+
+for(int i=0;i<n;i++){
+   if(arr[i]>=0){
+       check[arr[i]]=true;
+   } 
+}
+
+for(int i=0;i<N;i++){
+    if(check[i]==false){
+        cout<<i;
+        break;
+    }
+}
+
+
+return 0;
+
+}
